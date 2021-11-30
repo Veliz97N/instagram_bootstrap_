@@ -1,0 +1,69 @@
+.title{
+    color: black;
+    cursor: pointer;
+}
+.navbar{
+    background:#f4f4f5
+}
+.contenido_square{
+    min-height: 90vh;
+    background: #f4f4f5;
+}
+
+.configuraciones{
+    color:black;
+    background:transparent;
+    border: none;
+}
+
+.btn-grid{
+    transition: all .3s ease-in;
+}
+.btn-square{
+    transition: all .3s ease-in;
+}
+
+.btn-grid:hover,
+.btn-square:hover{
+    background-color:gray ;
+    color: white;
+}
+.dropdown-menu{
+    z-index: 9999999;
+}
+.image{
+    min-width: 33vw;;
+    max-width: 33vw;
+    height: 40vh;
+}
+.image{
+    transition: all .3s ease-in-out;
+}
+.image:hover{
+    transform:scale(1.1);
+    z-index: 99999;
+    cursor: pointer;
+}
+.square{
+    max-width: 100vw;
+}
+.item{
+    position: relative;
+    width: 40vw;
+    height: 75vh;
+    background: white;
+    border-radius: 10px;
+
+}
+.imagen-profile{
+    min-width: 40vw;
+    max-height: 50vh;
+}
+.comentarios{
+    position: absolute;
+    bottom: 10px;
+    width: 39vw;
+}
+
+
+
